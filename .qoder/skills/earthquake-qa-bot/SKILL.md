@@ -1,6 +1,6 @@
 ---
 name: earthquake-qa-bot
-description: Earthquake prevention and emergency response knowledge base. Provides expert information on earthquake precursor identification (animal behavior, sky anomalies, building signs), historical earthquake cases (China, Japan, New Zealand, USA, Haicheng, Tangshan), emergency response procedures, self-rescue techniques, post-disaster reconstruction, scientific principles (P-waves, S-waves, infrasound, electromagnetic field, piezoelectric effect), vulnerable group support (elderly, disabled, children), and business continuity planning. Supports both Chinese and English. Use when users ask about earthquakes, seismic safety, disaster prevention, emergency preparedness, household safety, school drills, workplace safety, or community resilience.
+description: Earthquake prevention and emergency response knowledge base. Provides expert information on earthquake precursor identification (animal behavior, sky anomalies, building signs), historical earthquake cases (China, Japan, New Zealand, USA, Haicheng, Tangshan), emergency response procedures, self-rescue techniques, post-disaster reconstruction, scientific principles (P-waves, S-waves, infrasound, electromagnetic field, piezoelectric effect), vulnerable group support (elderly, disabled, children), business continuity planning, and REAL-TIME WARNING SYSTEM URLs (China Earthquake Administration, China Earthquake Networks Center, Central Meteorological Observatory typhoon warnings, 12379 national emergency warning, Shanghai/Shanghai earthquake early warning mini-programs, MyShake app). Supports both Chinese and English. Use when users ask about earthquakes, seismic safety, disaster prevention, emergency preparedness, household safety, school drills, workplace safety, or community resilience.
 ---
 
 # 防震问答机器人 | Earthquake Prevention Q&A Bot
@@ -9,7 +9,224 @@ description: Earthquake prevention and emergency response knowledge base. Provid
 
 ## 触发关键词
 
-地震、前兆、动物、异常、应急、自救、避难、应急包、黄金时间、大学生、贡献、治理、案例、electromagnetic、infrasound、earthquake light、household、workplace、school、community、government、vulnerable、disabled、elderly、children、business continuity
+地震、前兆、动物、异常、应急、自救、避难、应急包、黄金时间、大学生、贡献、治理、案例、electromagnetic、infrasound、earthquake light、household、workplace、school、community、government、vulnerable、disabled、elderly、children、business continuity、预警、warning、实时地震、typhoon、台风、紧急预警
+
+---
+
+## 〇、实时预警系统（官方权威平台）
+
+> ⚠️ **重要提示**：以下为官方权威预警平台，可用于查询实时地震、台风等灾害预警信息。建议收藏以备急用。
+
+### 1. 中国地震预警系统
+
+#### 中国地震局（官方网站）
+
+- **网址** - https://www.cea.gov.cn
+- **功能** - 地震政策法规、震情灾情、监测预报、应急救援
+- **数据来源** - 中国地震局官方
+- **特点** - 权威性最高、政策性内容
+
+#### 中国地震台网中心（CENC）
+
+- **网址** - http://www.cenc.ac.cn
+- **功能** - 全国地震监测、地震速报、震情发布
+- **更新速度** - 全国2分钟内、全球10分钟内
+- **特点** - 速报最权威、技术性最强
+
+#### 中国地震台网（CEIC）
+
+- **网址** - https://www.ceic.ac.cn
+- **功能** - 实时地震列表、震情查询
+- **特点** - 面向公众、查询方便
+
+#### 国家防震减灾公共服务平台
+
+- **网址** - https://www.earthquake.ac.cn
+- **主办** - 中国地震局
+- **功能**：
+  - 震情实时信息
+  - 防震减灾科普
+  - 预警信息发布
+  - 资料库与下载
+  - 个人用户注册
+
+### 2. 移动端预警App/小程序
+
+#### 中国"地震预警"App
+
+- **平台** - iOS / Android
+- **最新版本** - 2025.1.0（2025年10月更新）
+- **功能**：
+  - 秒级地震预警
+  - 倒计时警报
+  - 震情简报
+  - 烈度分布图
+  - 点位查询
+  - SVIP会员专属功能
+
+#### 微信小程序预警系统
+
+- **入口** - 微信搜索"中国地震台网"
+- **功能** - 微信内即时预警通知
+- **特点** - 2025年中国地震台网上线
+
+#### 上海地震预警小程序
+
+- **平台** - 微信 / 支付宝
+- **功能** - 集成上海地震预警业务体系
+- **特点** - 城市级预警服务
+
+#### 美国MyShake App
+
+- **开发者** - 加州大学伯克利分校
+- **平台** - iOS / Android
+- **功能** - 智能手机众包地震监测
+- **系统集成** - 美国地质调查局ShakeAlert系统
+
+### 3. 台风预警系统（关联灾害）
+
+#### 中央气象台（官方）
+
+- **主站** - https://www.nmc.cn
+- **台风网** - http://typhoon.nmc.cn/web.html
+- **功能**：
+  - 实时台风路径
+  - 中心位置经纬度
+  - 移动方向和速度
+  - 风力等级
+  - 降水预报
+  - 卫星云图
+- **权威性** - 中国气象局直属单位
+
+#### 风云二号卫星云图
+
+- **网址** - https://www.nmc.cn/publish/typhoon/fy2c-pj2.html
+- **功能** - 实时卫星云图、台风动态
+
+### 4. 国家突发事件预警信息发布系统
+
+#### 全国统一预警号码
+
+- **号码** - **12379**
+- **性质** - 国家突发事件预警信息发布公益服务专用号码
+- **主管** - 中国气象局
+- **覆盖** - 气象灾害、地震、台风、洪涝、地质灾害等
+
+#### 12379手机客户端
+
+- **功能**：
+  - 全国性预警接收
+  - 实时推送
+  - 多灾种预警
+  - 自定义预警区域
+
+### 5. 各省市地震局官方网站
+
+| 省市 | 网址 |
+|------|------|
+| 北京市地震局 | https://www.bjdzj.gov.cn |
+| 陕西省地震局 | https://www.sxdzj.gov.cn |
+| 甘肃省地震局 | https://www.gsdzj.gov.cn |
+| 上海市地震局 | (市政府官网) |
+
+### 6. 实时查询方法
+
+#### 方法一：直接访问官网
+
+```
+# 地震查询
+打开 https://www.ceic.ac.cn
+→ 点击"最新地震"或"实时震情"
+→ 查看全国地震列表
+
+# 台风查询
+打开 http://typhoon.nmc.cn/web.html
+→ 查看实时台风路径图
+```
+
+#### 方法二：使用App
+
+```
+# 地震预警
+下载"地震预警"App
+→ 开启预警功能
+→ 设置预警阈值
+→ 接收推送通知
+
+# 台风查询
+下载"中央气象台"App
+或访问中央气象台网站
+```
+
+#### 方法三：微信小程序
+
+```
+微信搜索"中国地震台网"
+→ 关注公众号
+→ 接收预警推送
+```
+
+#### 方法四：电话咨询
+
+- **12322** - 防震减灾服务热线
+- **12379** - 国家突发事件预警
+- **12121** - 天气预报
+- **119/120/110** - 紧急救援
+
+### 7. 数据API（开发者）
+
+#### 中国地震台网中心API
+
+- **数据接口** - http://www.cenc.ac.cn 提供JSON格式数据
+- **内容** - 地震列表、震情详情
+- **频率** - 实时更新
+
+#### 中央气象台API
+
+- **数据接口** - http://www.nmc.cn RESTful API
+- **内容** - 台风路径、气象预警
+- **频率** - 10分钟更新
+
+#### 国家预警发布系统
+
+- **数据接口** - 通过12379客户端或网站API
+- **标准** - Common Alerting Protocol (CAP)
+
+### 8. 国际权威预警平台
+
+| 平台 | 网址 | 覆盖 |
+|------|------|------|
+| 美国地质调查局(USGS) | https://earthquake.usgs.gov | 全球 |
+| 欧洲地中海地震中心(EMSC) | https://www.emsc-csem.org | 欧洲 |
+| 日本气象厅(JMA) | https://www.jma.go.jp | 日本 |
+| 太平洋海啸预警中心(PTWC) | https://tsunami.gov | 太平洋 |
+| ShakeAlert（美国西海岸） | https://www.shakealert.org | 美国西海岸 |
+| IRIS地震数据 | https://www.iris.edu | 全球 |
+
+### 9. 预警接收的最佳实践
+
+1. **多渠道订阅** - 同时使用App、短信、微信
+2. **开启通知权限** - 确保预警信息能及时推送
+3. **设置预警阈值** - 3级以上地震接收
+4. **定期检查** - 每月测试预警功能
+5. **关注官方** - 信任权威平台，不信谣传谣
+6. **应急演练** - 收到预警时知道怎么避险
+
+### 10. 实时查询使用示例
+
+当用户询问"最近哪里发生了地震"时，应引导用户：
+
+1. 访问 https://www.ceic.ac.cn 或下载"地震预警"App
+2. 查看最近24小时地震列表
+3. 关注震中位置、震级、震源深度
+4. 远离震中区域，听从当地政府指挥
+
+当用户询问"台风在哪里"时，应引导用户：
+
+1. 访问 http://typhoon.nmc.cn/web.html 或中央气象台
+2. 查看实时台风路径
+3. 关注台风中心位置、移动方向、风力
+4. 提前做好防台风准备
 
 ---
 
