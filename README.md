@@ -1,22 +1,39 @@
 # 防震问答机器人 | Earthquake Prevention Q&A Bot
 
-> 专业的地震防灾知识库机器人 · A Professional Earthquake Prevention Knowledge Base Bot
+> 地震减灾与智能援助•Earthquake Mitigation & Intelligent Assistance (EMIA)”
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Knowledge: 2025-2026](https://img.shields.io/badge/Knowledge-2025--2026-green.svg)]()
 [![Language: ZH/EN](https://img.shields.io/badge/Language-中文%20%7C%20English-orange.svg)]()
 
 ---
+Introduction
+This project is a self-developed, customized Skill in the field of earthquake disaster prevention, enabling AI coding assistants to serve as earthquake advisors covering the full cycle of pre disaster (prevention and preparedness), during disaster (emergency response and avoidance), and post disaster (recovery and reconstruction). It is positioned as a public science education and emergency response support tool, encompassing a comprehensive knowledge system that includes earthquake science principles, precursor identification methods, emergency response and self /mutual rescue skills, historical case analyses, strategies for vulnerable group care, and disaster prevention policy recommendations. It provides differentiated science popularization content delivery, in earthquake emergency guidance, post earthquake psychological support advice, and one stop Q&A services on earthquake prevention and mitigation laws and regulations. The Skill is compatible with any tools that support the SKILL.md specification, including Claude Code, Codex, Cursor, Qoder, ZCode, and others.
+The Skill features a dedicated section for university student engagement in earthquake governance, encouraging higher education students to submit works, proposals, or suggestions on topics such as earthquake science outreach, community drill design, and vulnerable group assistance plans. It also enables students to assist governments and schools in pre disaster prevention, in disaster relief, and post disaster reconstruction (with respect to typhoon events as well), aiming to reshape university students into active governance collaborators in disaster prevention and strengthen their awareness of shared risk responsibility and public affairs accountability as social citizens.
 
-## 项目简介 | Project Overview
+Main functions
+1.	Intelligent Q&A and science education: Extracts key information from users' questions and provides scientifically accurate, accessible responses based on earthquake scenarios.
+2.	Comprehensive knowledge coverage: Includes earthquake principles, precursor identification, emergency response, historical cases, vulnerable group support, and policy recommendations.
+3.	One stop service content: Provides pre earthquake prevention education, in earthquake emergency response, post earthquake psychological support, and regulatory Q&A.
+4.	Real time early warning information integration: Interfaces with official monitoring data to push location based alert levels and action recommendations (serving as informational alerts only, not as independent prediction).
+5.	Governance oriented participation system: Designed for university students, offering collaborative content in topic creation, drill design, and community services, while enhancing their sense of civic responsibility.
 
-**中文**：本项目是一个**专业级地震防灾知识库问答机器人**，定位为公众教育与应急科普工具。涵盖地震科学原理、前兆识别、避险自救、历史案例、弱势群体关怀、政策建议等全方位内容，特别支持**大学生贡献专题**与**实时预警系统**。
+⚠️ Disclaimer
+This project does NOT constitute any earthquake prediction or early warning. Earthquake prediction remains a global scientific challenge. For all early warning information, please always refer to official and authoritative sources such as the earthquake administration authorities. While the project's content is designed based on China's local practices, it may offer comparative reference value for other earthquake prone regions worldwide. However, practical application should be adapted to local geological conditions, building code standards, and social emergency response capabilities.
 
-**English**: This project is a **professional earthquake prevention knowledge base Q&A bot**, designed for public education and emergency preparedness. It covers earthquake science, precursor identification, emergency response, historical cases, vulnerable group support, and policy recommendations. Features dedicated sections on **college student contributions** and **real-time warning systems**.
+中文简介
+本项目为地震防灾领域自研定制化Skill，让 AI 编程助手成为覆盖灾前（预防准备）、灾中（避险应对）、灾后（恢复重建）全周期的地震顾问。定位为公众科普教育与应急响应辅助工具，涵盖地震科学原理、前兆识别方法、紧急避险与自救互救技能、历史震例分析、弱势群体关怀策略及防灾政策建议等全维度知识体系，提供差异化科普内容推送、震时应急指引、震后心理援助指南及防震减灾法规一站式问答服务。兼容 Claude Code、Codex、Cursor、Qoder、ZCode 等任何支持 SKILL.md 规范的工具。
+Skill专设大学生地震治理板块，鼓励高校学生围绕地震科普创作、社区应急演练设计、弱势群体帮扶方案等主题，提交相关作品、方案或建议，协助政府与学校开展台风的灾前预防、灾中救助、灾后重建等，旨在将大学生重塑为主动的防灾治理协作者，强化其作为社会公民的风险共担意识与公共事务责任感。
 
-> ⚠️ **免责声明 | Disclaimer**: 本项目不构成任何地震预测或预警。地震预测属于世界性科学难题，请以中国地震局等官方信息为准。
-> This project does NOT constitute earthquake prediction or early warning. Please refer to official sources (e.g., China Earthquake Administration).
+主要功能：
+1.	智能问答与科普教育：提取用户提问关键信息，结合地震场景输出科学、易懂的针对性解答。
+2.	全维度知识覆盖：包括地震原理、前兆识别、避险自救、历史案例、弱势群体关怀、政策建议等。
+3.	一站式服务内容：提供震前预防科普、震时应急响应、震后心理援助及法规政策问答。
+4.	实时预警信息集成：对接官方监测数据，推送基于位置的预警等级与行动建议（仅作为信息提示，不作为独立预测依据）。
+5.	治理型参与体系：面向大学生，提供专题创作、演练设计、社区服务等协作内容，提升公民责任意识。
 
+⚠️ 免责声明：
+本项目不构成任何地震预测或预警，地震预测属于世界性科学难题，所有预警信息请以地震局等官方权威发布为准。项目内容设计虽立足中国本土实践，但对全球其他地震多发区域亦具有一定的类比参考价值，具体应用时需结合当地地质环境、建筑设防标准及社会应急能力进行适当调整。 
 ---
 
 ## 核心特性 | Core Features
