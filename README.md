@@ -1,38 +1,42 @@
-# 地震减灾与智能援助•Earthquake Mitigation & Intelligent Assistance (EMIA)”
+__地震减灾与智能援助•Earthquake Mitigation & Intelligent Assistance (EMIA)”__
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Knowledge: 2025-2026](https://img.shields.io/badge/Knowledge-2025--2026-green.svg)]()
 [![Language: ZH/EN](https://img.shields.io/badge/Language-中文%20%7C%20English-orange.svg)]()
 
 ---
-Introduction
+__Introduction__
+
 This project is a self-developed, customized Skill in the field of earthquake disaster prevention, enabling AI coding assistants to serve as earthquake advisors covering the full cycle of pre disaster (prevention and preparedness), during disaster (emergency response and avoidance), and post disaster (recovery and reconstruction). It is positioned as a public science education and emergency response support tool, encompassing a comprehensive knowledge system that includes earthquake science principles, precursor identification methods, emergency response and self /mutual rescue skills, historical case analyses, strategies for vulnerable group care, and disaster prevention policy recommendations. It provides differentiated science popularization content delivery, in earthquake emergency guidance, post earthquake psychological support advice, and one stop Q&A services on earthquake prevention and mitigation laws and regulations. The Skill is compatible with any tools that support the SKILL.md specification, including Claude Code, Codex, Cursor, Qoder, ZCode, and others.
 The Skill features a dedicated section for university student engagement in earthquake governance, encouraging higher education students to submit works, proposals, or suggestions on topics such as earthquake science outreach, community drill design, and vulnerable group assistance plans. It also enables students to assist governments and schools in pre disaster prevention, in disaster relief, and post disaster reconstruction (with respect to typhoon events as well), aiming to reshape university students into active governance collaborators in disaster prevention and strengthen their awareness of shared risk responsibility and public affairs accountability as social citizens.
 
-Main functions
+__Main functions__
 1.	Intelligent Q&A and science education: Extracts key information from users' questions and provides scientifically accurate, accessible responses based on earthquake scenarios.
 2.	Comprehensive knowledge coverage: Includes earthquake principles, precursor identification, emergency response, historical cases, vulnerable group support, and policy recommendations.
 3.	One stop service content: Provides pre earthquake prevention education, in earthquake emergency response, post earthquake psychological support, and regulatory Q&A.
 4.	Real time early warning information integration: Interfaces with official monitoring data to push location based alert levels and action recommendations (serving as informational alerts only, not as independent prediction).
 5.	Governance oriented participation system: Designed for university students, offering collaborative content in topic creation, drill design, and community services, while enhancing their sense of civic responsibility.
 
-⚠️ Disclaimer
+__⚠️ Disclaimer__
+
 This project does NOT constitute any earthquake prediction or early warning. Earthquake prediction remains a global scientific challenge. For all early warning information, please always refer to official and authoritative sources such as the earthquake administration authorities. While the project's content is designed based on China's local practices, it may offer comparative reference value for other earthquake prone regions worldwide. However, practical application should be adapted to local geological conditions, building code standards, and social emergency response capabilities.
 
-中文简介
+__中文简介__
+
 本项目为地震防灾领域自研定制化Skill，让 AI 编程助手成为覆盖灾前（预防准备）、灾中（避险应对）、灾后（恢复重建）全周期的地震顾问。定位为公众科普教育与应急响应辅助工具，涵盖地震科学原理、前兆识别方法、紧急避险与自救互救技能、历史震例分析、弱势群体关怀策略及防灾政策建议等全维度知识体系，提供差异化科普内容推送、震时应急指引、震后心理援助指南及防震减灾法规一站式问答服务。兼容 Claude Code、Codex、Cursor、Qoder、ZCode 等任何支持 SKILL.md 规范的工具。
 Skill专设大学生地震治理板块，鼓励高校学生围绕地震科普创作、社区应急演练设计、弱势群体帮扶方案等主题，提交相关作品、方案或建议，协助政府与学校开展台风的灾前预防、灾中救助、灾后重建等，旨在将大学生重塑为主动的防灾治理协作者，强化其作为社会公民的风险共担意识与公共事务责任感。
 
-主要功能：
+__主要功能：__
+
 1.	智能问答与科普教育：提取用户提问关键信息，结合地震场景输出科学、易懂的针对性解答。
 2.	全维度知识覆盖：包括地震原理、前兆识别、避险自救、历史案例、弱势群体关怀、政策建议等。
 3.	一站式服务内容：提供震前预防科普、震时应急响应、震后心理援助及法规政策问答。
 4.	实时预警信息集成：对接官方监测数据，推送基于位置的预警等级与行动建议（仅作为信息提示，不作为独立预测依据）。
 5.	治理型参与体系：面向大学生，提供专题创作、演练设计、社区服务等协作内容，提升公民责任意识。
 
-⚠️ 免责声明：
+__⚠️免责声明__
+
 本项目不构成任何地震预测或预警，地震预测属于世界性科学难题，所有预警信息请以地震局等官方权威发布为准。项目内容设计虽立足中国本土实践，但对全球其他地震多发区域亦具有一定的类比参考价值，具体应用时需结合当地地质环境、建筑设防标准及社会应急能力进行适当调整。 
----
 
 ## 核心特性 | Core Features
 
@@ -258,28 +262,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 感谢以下机构提供的权威资料 | Thanks to the following institutions for authoritative materials:
 
-中国地震局 · 应急管理部 · 中国红十字会 · 中国气象局 · 国务院 · 国家应急广播 · 联合国减灾署(UNDRR) · 世界卫生组织(WHO) · 美国地质调查局(USGS) · 美国红十字会 · 日本气象厅 · 太平洋海啸预警中心(PTWC) · 欧洲地中海地震中心(EMSC) · 加州大学伯克利分校(MyShake) · 四川成都高新减灾研究所
-
----
-
-## ⚠️ 重要声明 | Important Notice
-
-### 中文
-
-本项目提供的地震信息仅供参考，**不构成任何地震预测或预警**。地震预测目前仍属于世界性科学难题，任何单一前兆现象都不能作为确定地震即将发生的依据。请以中国地震局及各地地震监测部门发布的官方信息为准。
-
-**紧急电话 | Emergency Numbers**：
-- 12322（防震减灾服务热线）
-- 119（消防）/ 120（急救）/ 110（报警）
-
-### English
-
-The earthquake information provided by this project is for **reference only** and **does NOT constitute earthquake prediction or early warning**. Earthquake prediction remains a global scientific challenge. Any single precursor phenomenon cannot be used as definitive evidence of an impending earthquake. Please refer to official information released by the China Earthquake Administration and local seismic monitoring agencies.
-
-**Emergency Numbers**:
-- 12322 (China Earthquake Prevention & Reduction Hotline)
-- 119 (Fire) / 120 (Medical) / 110 (Police)
-- 911 (USA) / 112 (EU)
+中国地震局 · 应急管理部 · 中国红十字会 · 中国气象局 · 国务院 · 国家应急广播 · 联合国减灾署(UNDRR) · 世界卫生组织(WHO) · 美国地质调查局(USGS) · 美国红十字会 · 日本气象厅 · 太平洋海啸预警中心(PTWC) · 欧洲地中海地震中心(EMSC) · 加州大学伯克利分校(MyShake) · 四川成都高新减灾研究所 
 
 ---
 
