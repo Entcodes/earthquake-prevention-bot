@@ -1,6 +1,4 @@
-# 防震问答机器人 | Earthquake Prevention Q&A Bot
-
-> 地震减灾与智能援助•Earthquake Mitigation & Intelligent Assistance (EMIA)”
+# 地震减灾与智能援助•Earthquake Mitigation & Intelligent Assistance (EMIA)”
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Knowledge: 2025-2026](https://img.shields.io/badge/Knowledge-2025--2026-green.svg)]()
